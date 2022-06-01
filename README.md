@@ -1,8 +1,6 @@
 # data-assessment-data-engineer
 
-Welcome to the take-home assessment for the data engineer role on the Data Team at Workstep!  
-
-This exercise has two parts.  We expect this exercise to consume about 2 hours in total. If you exceed 3 hours, please reach out, as we value your time and we would take the feedback to narrow the scope of the exercise.  
+Welcome to the solution to the take-home assessment for the data engineer role on the Data Team at Workstep!  
 
 ## Background
 For the purposes of tracking our HIRE product’s impact with a particular customer, we ingest their Applicant Tracking Systems’ (ATS) data.  For the purposes of this exercise the data is a table of applicant events as they cascade through the interview process.  For example, the data could look like this:
@@ -45,10 +43,9 @@ The code you will work on is containerized and requires docker to run (https://w
 
 ### Part One - ETL Design
 
-Using the datasets from three fictional companies ATS’ (in `/input`) compose a data pipeline in Python that extracts the data from the three data sources, does a few transformations (described below) and loads the data into a database.
+Using the datasets from three fictional companies ATS’ (in `/input`) the data pipeline in Python extracts the data from the three data sources, does a few transformations and loads the data into a database.
 
-As mentioned above of the code sits in `src/docker/src/entrypoint.py` with the excerpt pertinent to this exercise depicted below
-
+Extraction and Transformations applied are depicted below
 ```
 # Pipeline steps
 @pipeline.task()
@@ -57,67 +54,99 @@ def part_one__extract_raw_data(path: str):
     Extracts the raw data from csv, xlsx, json files
     Args:
         path: location of raw data
-    Returns: Enitrely up to you! included is a dummy dataset, that passes through the rest of the pipeline
+    Returns: Pandas DataFrame that passes through the rest of the pipeline
     """
     logging.info('Extracting Raw Data...')
 
+    logging.info('scanning input directory...')
+    # scans and grabs only files
+    onlyfiles = [f for f in listdir(path) if isfile(join(path, f))]
 
-    dummy = [
-        {
-            'time': '2022-04-05 10:00:00.0',
-            'person_name': 'Arthur Applicant',
-            'phone': '2134567890',
-            'email': 'arthur.applicant@cox.net',
-            'company': 'Acme Anvil Corporation',
-            'role': 'Wile E. Coyote Revivor',
-            'application_status': 'applied'
-        },
-        {
-            'time': '2022-04-05 11:00:00.0',
-            'person_name': 'Arthur Applicant',
-            'phone': '2134567890',
-            'email': 'arthur.applicant@cox.net',
-            'company': 'Acme Anvil Corporation',
-            'role': 'Wile E. Coyote Revivor',
-            'application_status': 'disqualified'
-        }
-    ]
-    return dummy
+    data = pd.DataFrame()
+    #reading each file by format
+    for file in onlyfiles:
+        filepath = join(path, file)
+        fileformat = file.split('.')[-1]
+        if fileformat.lower() == 'csv':
+            temp = pd.read_csv(filepath, index_col=False)
+            temp.drop("Unnamed: 0", axis=1, inplace=True)
+
+        elif fileformat.lower() == 'xlsx':
+
+            temp = pd.read_excel(filepath, engine='openpyxl', index_col=False)
+            temp.drop("Unnamed: 0", axis=1, inplace=True)
+
+        elif fileformat.lower() == 'json':
+
+            temp = pd.read_json(filepath)
+
+        #Appending Parent Dataframe with current file data(temp)
+        data = pd.concat([data, temp], ignore_index=True )
+        #data = data.append(temp, ignore_index=True)   --- The frame.append method is deprecated and will be removed from pandas in a future version
+
+
+    return data
 
 @pipeline.task(depends_on=part_one__extract_raw_data)
-def part_one__transform_1(dataset):
+def part_one__transform(dataset):
     """
-    Define a transformation here! One of [Quarantine, Normalization, Common Status Mapping]
+    Following Transformations are done in the same order
+        1. Common Status Mapping - striped, removed underscores and transformed to lower case on "application_status"
+        2. Quarantine - removed records with invalid "phone" and "email"
+        3. Normalization - applied on "phone"
     Args:
-        dataset: Input Dataset (from extract, presumably)
-    Returns: transformed dataset
+        dataset: pandas dateframe from extract
+    Returns: list of dictionaries (acceptable by load function)
     """
-    logging.info('Performing Transform 1...')
-    return dataset
+    ## Common Status Mapping
+    logging.info('Performing Transform 1: Common Status Mapping...')
 
-@pipeline.task(depends_on=part_one__transform_1)
-def part_one__transform_2(dataset):
-    """
-    Define a transformation here! One of [Quarantine, Normalization, Common Status Mapping]
-    Args:
-        dataset: Input Dataset (from first transform, presumably)
-    Returns: transformed dataset
-    """
-    logging.info('Performing Transform 2...')
-    return dataset
+    # makes application status into lower case, strips and replaces underscores("_")
+    dataset["application_status"] = dataset["application_status"].str.lower().str.strip().replace('_', ' ', regex=True)
 
-@pipeline.task(depends_on=part_one__transform_2)
-def part_one__transform_3(dataset):
-    """
-    Define a transformation here! One of [Quarantine, Normalization, Common Status Mapping]
-    Args:
-        dataset: Input Dataset (from second transform, presumably)
-    Returns: transformed dataset
-    """
-    logging.info('Performing Transform 3...')
-    return dataset
 
-@pipeline.task(depends_on=part_one__transform_3)
+
+    ## Quarantine
+    logging.info('Performing Transform 2: Quarantine...')
+
+    #Casting "phone" datatype to string
+    dataset['phone'] = dataset['phone'].astype(str)
+
+    #extracting records where "phone" length is not either 10 or 11 digits
+    phone_records_invalid = dataset[dataset["phone"].apply(lambda x: len(x) not in range(10, 12))]
+
+    #droping the records that are captured above
+    dataset.drop(phone_records_invalid.index, inplace=True)
+
+    #extracting records where email format is not "string1@string2.string3"
+    email_records_invalid = dataset[
+        ~dataset["email"].str.contains("([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@[A-Za-z0-9-]+(\.[A-Z|a-z]{2,})+").astype(bool)]
+
+    #appending all invalid records
+    quarentine_records = pd.concat([phone_records_invalid,email_records_invalid], ignore_index=True)
+
+    """
+    Managing Quarentine options
+    1. we can write the records to a remote location where business can access for further investigation
+    2. Write to another table in the data lake/repository
+    """
+
+    # droping the records that are captured above for email records
+    dataset.drop(email_records_invalid.index, inplace=True)
+
+
+
+    ## Normalization
+    logging.info('Performing Transform 3: Normalization...')
+
+    # Normalizing phone number: matches a number comprised of either 10 digits, or 11 digits if the first number is 1
+    dataset['phone'] = dataset["phone"].str.extract("^1?(\d{10})")
+
+
+    return dataset.to_dict('records')
+
+
+@pipeline.task(depends_on=part_one__transform)
 def load_data(dataset):
     """
     Loads the supplied Data into the table,
@@ -136,37 +165,37 @@ def load_data(dataset):
             }
         ]
         Note: that each dictionary will represent a record and the keys of the dictionary MUST match the keys above in order to be added to the database.
+
     Returns: None
     """
     # Load Data Into Table
     logging.info('Loading Data in SQLite Database...')
     insert_Table_ats(dataset)
+
 ```
 
-Your job will be to complete the extraction code to load data from the three companies, write the appropriate transformations, and let the code load the data into a sqlite database.  For illustrative purposes, the extraction function has a dummy dataset hardcoded so that you may follow its evolution through the code as it exists.  
 
-    Hint:  Use the dummy dataset as a checkpoint between writing the load function(s) and the transform function(s).  One could choose to use the dummy dataset to write the transforms before working on the extraction or visa versa.
-
-While the objective of data extraction seems straightforward (extract the data from the `csv`, `xlsx`, and `json` formats, put it in a format that looks like the dummy dataset), the transformations the data requires are more open to interpretation.  To add some guidelines, the transformations we would like the data to undergo (order determined by you) is as follows:
-     
-* Common Status Mapping - The data includes the applicant’s status for each row.  Each ATS uses their own unique but obvious convention for the status states.  Please map them to a common set of states so that in the final database, the set of states is the same, regardless of the source ATS. 
-* Quarantine - Some of the records will contain anomalies that are not possible to alleviate (for the purposes of this exercise).  Devise and execute a rubric by which these anomalous records can be quarantined. Examples of this are limited to:
-  * We assume all applicants’ phone numbers are US and 10 digits long (area code + 7 digit number), some will be more or less. 
-  * Emails that are missing obvious elements (i.e. `@` , or a `.com`)
+While the objective of data extraction seems straightforward (extract the data from the `csv`, `xlsx`, and `json` formats using pandas DataFrame). 
+The following transformations are applied in the same order
+* Common Status Mapping -  Regardless of the source application status column will be in lower case, no trailing spaces and no underscores
+* Quarantine -
+  * Identifies records that have "phone" length not equal to either 10 or 11 
+  * Identifies records that have invalid format of "email" i.e., "string1@string2.string3"
+  * Managing quarantined options
+    1. we can write the records to a remote location where business can access for further investigation
+    2. Write to another table in the data lake/repository
 * Normalization of data
-  * Reformat the phone numbers to a 10 character long alphanumeric string (i.e. 3 digit area code, 3 digit exchange code and 4 digit subscriber number - `9221234567`).  This typically involves removing the `+` or `00` in front of the number and the digits in the front that represent the country code (we assume all numbers  in the data are US and start with either +1 or 001)
-
-Once the extraction and transformations are complete and provided that the data matches the format depicted by the dummy data, the data will then be loaded into a sqlite database.  No candidate input is necessary for the loading function
+  * Transforms the "phone" using Regex that matches a number comprised of either 10 digits, or 11 digits if the first number is 1 
+  
+Once the extraction and transformations are completed and before loading to the database, the pandas Dataframe is transformed into list of dictionaries (the format depicted by the dummy data), then be loaded into a sqlite database.
 
 ### Part Two - Analysis
 
-Now put yourself in the shoes of the Analyst that would be analyzing this data and that has access to the database where you loaded the data.  Write two SQL queries against the data that you loaded into the database from Part One - ETL Design that return 
+Now write two SQL queries against the data that you loaded into the database from Part One - ETL Design that return 
 1. The distribution of final applicant states, on a per company basis and include the result. 
 1. The distribution of applicant states, prior to disqualification, for the applicants that were disqualified.
 
-The following code excerpt from `src/docker/src/entrypoint.py` is wired to execute on the sqlite db from part one.  All that is necessary is to fill the query variables and the code will print the query and the result at execution!  More information about supported SQL functions is available at https://docs.ponyorm.org/api_reference.html#queries-and-functions
-
-> If you wish to leverage something other than PonyORM, the generated and complete sqlite file is accessible at `data/gen` folder, and you could (for instance) leverage pandas' sql functionality instead)
+The following solution excerpt from `src/docker/src/entrypoint.py` is wired to execute on the sqlite db from part one.
 
 ```
 @pipeline.task(depends_on=load_data)
@@ -181,9 +210,14 @@ def part_two_query_one(input: None):
     logging.info('Running First Query...')
     # Select Statement - This Throws SQL over PonyORM (https://docs.ponyorm.org/queries.html)
     query = """
-    *
-    FROM ats
-    LIMIT 10
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
     """
     logging.info('Query:\n{}'.format(query))
     data = select_statement(query)
@@ -203,67 +237,58 @@ def part_two_query_two(input: None):
     logging.info('Running Second Query...')
     # Select Statement - This Throws SQL over PonyORM (https://docs.ponyorm.org/queries.html)
     query = """
-    *
-    FROM ats
-    LIMIT 10
+	a.company,
+	a.application_status as "application_status(prior to DQ)",
+	printf ("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || "%" AS "percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'disqualified'
+GROUP BY
+	a.company, a.application_status
     """
     logging.info('Query:\n{}'.format(query))
     data = select_statement(query)
     logging.info('Results:\n{}'.format(
         json.dumps(data, indent = 2)
     ))
+
 ```
 
-For example, if the data in the database from Part One - ETL Design looked something like the following:
+### Notes
 
-| timestamp           |  applicant_name   |   company   |        role_title        |  application_status   |
-|:--------------------|:-----------------:|:-----------:|:------------------------:|:---------------------:|
-| 2022-02-21 19:08:52 | Arthur Applicant  | Whole Seeds |   Forklift Operator II   |        applied        |        
-| 2022-02-25 10:43:45 | Arthur Applicant  | Whole Seeds |   Forklift Operator II   |     disqualified      | 
-| 2022-03-04 12:32:32 |   Garrett Boxer   | Whole Seeds |    Packaging Manager     | waiting for interview | 
-| 2022-02-23 10:43:45 | Celeste Jobhunter |   U Ship    | Packaging Technician III |        applied        |      
-| 2022-02-22 15:51:16 | Arthur Applicant  | Whole Seeds |   Forklift Operator II   | waiting for interview |
-| 2022-02-25 05:14:33 | Celeste Jobhunter |   U Ship    | Packaging Technician III |     disqualified      |
-| 2022-05-04 18:13:12 | Cindy Roadmaster  |  18 Wheels  |  CDL Logistics Manager   |      offer sent       |
-
-Then the result of the 1st query *should* look something like this:
-
-| company     |  application_status   | percentage |
-|:------------|:---------------------:|-----------:|
-| Whole Seeds | waiting for interview |        50% |
-| Whole Seeds |     disqualified      |        50% |
-| U Ship      |     disqualified      |       100% |
-| 18 Wheels   |      offer sent       |       100% |
-
-And the result for the 2nd query *should* look something like this (with the caveat being the distribution is not that insteresting, given that for the purposes of illustrating the example, the starting dataset is too small):
+Part TWO - Query 2 : I used Sub-Select query to calculate the distribution. We can also approach the solution by creating temp table, which is efficient when dealing with large data sets, however consumes space. Since it is small data set and we don't want to spend time on updating data/gen model. I just went ahead with sub select statement. Please find below statement for Temp table.
 
 
-| company     | application_status (prior to DQ) | percentage |
-|:------------|:--------------------------------:|-----------:|
-| Whole Seeds |      waiting for interview       |        50% |
-| Whole Seeds |             applied              |        50% |
+```
+Create TEMP table abc as 
+select distinct company, email from ats
+where application_status = 'disqualified';
+SELECT
+	a.company,
+	a.application_status,
+	printf ("%.2f",
+		(COUNT(a.*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || "%" AS "Percentage"
+FROM
+	ats a
+	JOIN abc b ON a.company = b.company
+		AND a.email = b.email
+WHERE
+	a.application_status != 'disqualified'
+GROUP BY
+	a.company,
+	a.application_status
 
-### Evaluation Criteria
 
-All decisions regarding *how* the engineering are left *entirely* to you, you are free to determine how you perform the extraction, and transformations of the data.  If you feel the urge to 
-* write the code in separate python files and call on those, or 
-* keep it in the function as displayed, or 
-* modify how the data is loaded 
-  * format wise, or 
-  * maybe want to use a different database, or 
-  * just plain decide that the jinja juggle I wrote is just plain weird and that it should be hardcoded, etc... or
-* modify how the code executes, then
-
-
-
-Using this assessment we seek to understand the following
-* what 'good' code looks like to you
-* how you think about ETL processes and steps
-* how you structure your software in terms of readability and execution by others.
-
-### Submitting your work
-
-Please clone this repository, complete the assessment, and send the entire thing back to us over email!
+```
 
 
 

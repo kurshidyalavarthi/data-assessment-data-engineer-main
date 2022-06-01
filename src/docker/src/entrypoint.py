@@ -107,7 +107,7 @@ def part_one__transform(dataset):
         ~dataset["email"].str.contains("([A-Za-z0-9]+[.-_])*[A-Za-z0-9]+@[A-Za-z0-9-]+(\.[A-Z|a-z]{2,})+").astype(bool)]
 
     #appending all invalid records
-    quarentine_records = pd.concat([phone_records_invalid,email_records_invalid], ignore_index=True)
+    quarantine_records = pd.concat([phone_records_invalid,email_records_invalid], ignore_index=True)
 
     """
     Managing Quarentine options
@@ -137,7 +137,7 @@ def load_data(dataset):
     Nothing needs to be done here as part of the assessment
 
     Args:
-        dataset: data from the last task having a format as follows (also depicted in line 44): [
+        dataset: [
             {
                 'time': '2022-04-05 11:00:00.0',
                 'person_name': 'Arthur Applicant',

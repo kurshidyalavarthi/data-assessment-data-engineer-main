@@ -4696,3 +4696,169 @@ GROUP BY
     "35.29%"
   ]
 ]
+2022-06-01 21:39:59,450 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 21:39:59,533 - root - INFO - Extracting Raw Data...
+2022-06-01 21:39:59,533 - root - INFO - scanning input directory...
+2022-06-01 21:39:59,909 - root - INFO - Performing Transform 1: Common Status Mapping...
+2022-06-01 21:39:59,918 - root - INFO - Performing Transform 2: Quarantine...
+2022-06-01 21:40:00,005 - root - INFO - Performing Transform 3: Normalization...
+2022-06-01 21:40:00,032 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 21:40:00,326 - root - INFO - Running First Query...
+2022-06-01 21:40:00,327 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 21:40:00,334 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "27.13%"
+  ]
+]
+2022-06-01 21:40:00,334 - root - INFO - Running Second Query...
+2022-06-01 21:40:00,336 - root - INFO - Query:
+
+	a.company,
+	a.application_status as "application_status(prior to DQ)",
+	printf ("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || "%" AS "percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'disqualified'
+GROUP BY
+	a.company, a.application_status
+    
+2022-06-01 21:40:00,342 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "68.29%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "31.71%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "72.50%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.50%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "64.71%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "35.29%"
+  ]
+]
