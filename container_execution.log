@@ -1,0 +1,4698 @@
+2022-05-28 00:00:59,936 - root - INFO - Generating Sqlite Database Schema
+2022-05-28 00:01:00,039 - root - INFO - Extracting Raw Data...
+2022-05-28 00:01:00,040 - root - INFO - Performing Transform 1...
+2022-05-28 00:01:00,041 - root - INFO - Performing Transform 2...
+2022-05-28 00:01:00,042 - root - INFO - Performing Transform 3...
+2022-05-28 00:01:00,043 - root - INFO - Loading Data in SQLite Database...
+2022-05-28 00:01:00,074 - root - INFO - Running First Query...
+2022-05-28 00:01:00,075 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-28 00:01:00,082 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-04-05 10:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "applied"
+  ],
+  [
+    2,
+    "2022-04-05 11:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "disqualified"
+  ]
+]
+2022-05-28 00:01:00,083 - root - INFO - Running First Query...
+2022-05-28 00:01:00,084 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-28 00:01:00,088 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-04-05 10:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "applied"
+  ],
+  [
+    2,
+    "2022-04-05 11:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "disqualified"
+  ]
+]
+2022-05-28 00:19:02,743 - root - INFO - Generating Sqlite Database Schema
+2022-05-28 00:19:02,840 - root - INFO - Extracting Raw Data...
+2022-05-28 00:19:02,841 - root - INFO - Performing Transform 1...
+2022-05-28 00:19:02,843 - root - INFO - Performing Transform 2...
+2022-05-28 00:19:02,844 - root - INFO - Performing Transform 3...
+2022-05-28 00:19:02,845 - root - INFO - Loading Data in SQLite Database...
+2022-05-28 00:19:02,879 - root - INFO - Running First Query...
+2022-05-28 00:19:02,881 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-28 00:19:02,889 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-04-05 10:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "applied"
+  ],
+  [
+    2,
+    "2022-04-05 11:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "disqualified"
+  ]
+]
+2022-05-28 00:19:02,890 - root - INFO - Running First Query...
+2022-05-28 00:19:02,891 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-28 00:19:02,895 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-04-05 10:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "applied"
+  ],
+  [
+    2,
+    "2022-04-05 11:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "disqualified"
+  ]
+]
+2022-05-28 00:23:30,243 - root - INFO - Generating Sqlite Database Schema
+2022-05-28 00:23:30,314 - root - INFO - Extracting Raw Data...
+2022-05-28 00:23:30,315 - root - INFO - scanning all formats..
+2022-05-28 00:40:29,752 - root - INFO - Generating Sqlite Database Schema
+2022-05-28 00:40:29,828 - root - INFO - Extracting Raw Data...
+2022-05-28 00:40:29,828 - root - INFO - scanning all formats..
+2022-05-28 00:40:29,829 - root - INFO - input pathinput
+2022-05-28 00:40:29,830 - root - INFO - Performing Transform 1...
+2022-05-28 00:40:29,831 - root - INFO - Performing Transform 2...
+2022-05-28 00:40:29,831 - root - INFO - Performing Transform 3...
+2022-05-28 00:40:29,832 - root - INFO - Loading Data in SQLite Database...
+2022-05-28 00:40:29,854 - root - INFO - Running First Query...
+2022-05-28 00:40:29,856 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-28 00:40:29,863 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-04-05 10:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "applied"
+  ],
+  [
+    2,
+    "2022-04-05 11:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "disqualified"
+  ]
+]
+2022-05-28 00:40:29,865 - root - INFO - Running First Query...
+2022-05-28 00:40:29,866 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-28 00:40:29,869 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-04-05 10:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "applied"
+  ],
+  [
+    2,
+    "2022-04-05 11:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "disqualified"
+  ]
+]
+2022-05-31 22:42:50,959 - root - INFO - Generating Sqlite Database Schema
+2022-05-31 22:42:51,046 - root - INFO - Extracting Raw Data...
+2022-05-31 22:42:51,047 - root - INFO - scanning all formats..
+2022-05-31 22:42:51,047 - root - INFO - input pathinput
+2022-05-31 22:42:51,048 - root - INFO - Performing Transform 1...
+2022-05-31 22:42:51,049 - root - INFO - Performing Transform 2...
+2022-05-31 22:42:51,050 - root - INFO - Performing Transform 3...
+2022-05-31 22:42:51,051 - root - INFO - Loading Data in SQLite Database...
+2022-05-31 22:42:51,069 - root - INFO - Running First Query...
+2022-05-31 22:42:51,070 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-31 22:42:51,074 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-04-05 10:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "applied"
+  ],
+  [
+    2,
+    "2022-04-05 11:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "disqualified"
+  ]
+]
+2022-05-31 22:42:51,075 - root - INFO - Running First Query...
+2022-05-31 22:42:51,076 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-31 22:42:51,079 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-04-05 10:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "applied"
+  ],
+  [
+    2,
+    "2022-04-05 11:00:00.000000",
+    "Arthur Applicant",
+    "2134567890",
+    "arthur.applicant@cox.net",
+    "Acme Anvil Corporation",
+    "Wile E. Coyote Revivor",
+    "disqualified"
+  ]
+]
+2022-05-31 23:49:16,659 - root - INFO - Generating Sqlite Database Schema
+2022-05-31 23:49:16,737 - root - INFO - Extracting Raw Data...
+2022-05-31 23:49:16,737 - root - INFO - scanning input directory...
+2022-05-31 23:49:17,156 - root - INFO - Performing Transform 1...
+2022-05-31 23:49:17,166 - root - INFO - Performing Transform 2...
+2022-05-31 23:49:17,216 - root - INFO - Performing Transform 3...
+2022-05-31 23:49:17,217 - root - INFO - Loading Data in SQLite Database...
+2022-05-31 23:49:17,746 - root - INFO - Running First Query...
+2022-05-31 23:49:17,747 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-31 23:49:17,754 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-05-31 23:49:17,758 - root - INFO - Running First Query...
+2022-05-31 23:49:17,759 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-05-31 23:49:17,764 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 01:54:09,371 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 01:54:09,546 - root - INFO - Extracting Raw Data...
+2022-06-01 01:54:09,547 - root - INFO - scanning input directory...
+2022-06-01 01:54:10,111 - root - INFO - Performing Transform 1...
+2022-06-01 01:54:10,120 - root - INFO - Performing Transform 2...
+2022-06-01 01:54:10,175 - root - INFO - Performing Transform 3...
+2022-06-01 01:54:10,177 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 01:54:10,514 - root - INFO - Running First Query...
+2022-06-01 01:54:10,515 - root - INFO - Query:
+
+    company,count(application_status)
+from ats
+group by company
+    
+2022-06-01 01:54:10,524 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    822
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    636
+  ],
+  [
+    "Post office System Corporation",
+    682
+  ]
+]
+2022-06-01 01:54:10,526 - root - INFO - Running First Query...
+2022-06-01 01:54:10,528 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 01:54:10,534 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 01:56:58,474 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 01:56:58,548 - root - INFO - Extracting Raw Data...
+2022-06-01 01:56:58,548 - root - INFO - scanning input directory...
+2022-06-01 01:56:59,007 - root - INFO - Performing Transform 1...
+2022-06-01 01:56:59,016 - root - INFO - Performing Transform 2...
+2022-06-01 01:56:59,064 - root - INFO - Performing Transform 3...
+2022-06-01 01:56:59,065 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 01:56:59,346 - root - INFO - Running First Query...
+2022-06-01 01:56:59,347 - root - INFO - Query:
+
+    company,application_status, count(application_status)
+from ats
+group by company
+group by application_status
+    
+2022-06-01 02:02:17,349 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:02:17,442 - root - INFO - Extracting Raw Data...
+2022-06-01 02:02:17,443 - root - INFO - scanning input directory...
+2022-06-01 02:02:18,023 - root - INFO - Performing Transform 1...
+2022-06-01 02:02:18,035 - root - INFO - Performing Transform 2...
+2022-06-01 02:02:18,107 - root - INFO - Performing Transform 3...
+2022-06-01 02:02:18,108 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:02:18,429 - root - INFO - Running First Query...
+2022-06-01 02:02:18,430 - root - INFO - Query:
+
+    commpany, ats, COUNT(*) / CAST( SUM(count(*)) over (partition by company) as float)
+  from ats
+ group by company, application_status
+    
+2022-06-01 02:03:26,311 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:03:26,379 - root - INFO - Extracting Raw Data...
+2022-06-01 02:03:26,379 - root - INFO - scanning input directory...
+2022-06-01 02:03:26,807 - root - INFO - Performing Transform 1...
+2022-06-01 02:03:26,816 - root - INFO - Performing Transform 2...
+2022-06-01 02:03:26,863 - root - INFO - Performing Transform 3...
+2022-06-01 02:03:26,864 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:03:27,165 - root - INFO - Running First Query...
+2022-06-01 02:03:27,166 - root - INFO - Query:
+
+    company, ats, COUNT(*) / CAST( SUM(count(*)) over (partition by company) as float)
+  from ats
+ group by company, application_status
+    
+2022-06-01 02:04:59,194 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:04:59,261 - root - INFO - Extracting Raw Data...
+2022-06-01 02:04:59,263 - root - INFO - scanning input directory...
+2022-06-01 02:04:59,718 - root - INFO - Performing Transform 1...
+2022-06-01 02:04:59,727 - root - INFO - Performing Transform 2...
+2022-06-01 02:04:59,775 - root - INFO - Performing Transform 3...
+2022-06-01 02:04:59,776 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:05:00,069 - root - INFO - Running First Query...
+2022-06-01 02:05:00,070 - root - INFO - Query:
+
+    company,
+	application_status,
+	COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float)
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 02:05:00,075 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    0.3613138686131387
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    0.0681265206812652
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    0.07907542579075426
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    0.043795620437956206
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    0.18004866180048662
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    0.26763990267639903
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    0.3584905660377358
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    0.04559748427672956
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    0.06446540880503145
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    0.06289308176100629
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    0.18867924528301888
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    0.279874213836478
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    0.3621700879765396
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    0.06451612903225806
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    0.06598240469208211
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    0.054252199413489736
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    0.18181818181818182
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    0.27126099706744866
+  ]
+]
+2022-06-01 02:05:00,078 - root - INFO - Running First Query...
+2022-06-01 02:05:00,079 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 02:05:00,082 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 02:07:26,722 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:07:26,786 - root - INFO - Extracting Raw Data...
+2022-06-01 02:07:26,787 - root - INFO - scanning input directory...
+2022-06-01 02:07:27,207 - root - INFO - Performing Transform 1...
+2022-06-01 02:07:27,218 - root - INFO - Performing Transform 2...
+2022-06-01 02:07:27,264 - root - INFO - Performing Transform 3...
+2022-06-01 02:07:27,267 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:07:27,555 - root - INFO - Running First Query...
+2022-06-01 02:07:27,555 - root - INFO - Query:
+
+	company,
+	application_status,
+	(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float)) * 100 as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 02:07:27,562 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    36.13138686131387
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    6.81265206812652
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    7.907542579075426
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    4.37956204379562
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    18.004866180048662
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    26.763990267639905
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    35.84905660377358
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    4.559748427672956
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    6.446540880503145
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    6.289308176100629
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    18.867924528301888
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    27.9874213836478
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    36.21700879765396
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    6.451612903225806
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    6.598240469208211
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    5.425219941348973
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    18.181818181818183
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    27.126099706744867
+  ]
+]
+2022-06-01 02:07:27,563 - root - INFO - Running First Query...
+2022-06-01 02:07:27,564 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 02:07:27,567 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 02:17:25,986 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:17:26,059 - root - INFO - Extracting Raw Data...
+2022-06-01 02:17:26,059 - root - INFO - scanning input directory...
+2022-06-01 02:17:26,476 - root - INFO - Performing Transform 1...
+2022-06-01 02:17:26,485 - root - INFO - Performing Transform 2...
+2022-06-01 02:17:26,531 - root - INFO - Performing Transform 3...
+2022-06-01 02:17:26,532 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:17:26,826 - root - INFO - Running First Query...
+2022-06-01 02:17:26,827 - root - INFO - Query:
+
+	company,
+	application_status,
+	(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS int)) * 100 as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 02:17:26,836 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    0
+  ]
+]
+2022-06-01 02:17:26,837 - root - INFO - Running First Query...
+2022-06-01 02:17:26,838 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 02:17:26,841 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 02:22:13,162 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:22:13,250 - root - INFO - Extracting Raw Data...
+2022-06-01 02:22:13,250 - root - INFO - scanning input directory...
+2022-06-01 02:22:13,695 - root - INFO - Performing Transform 1...
+2022-06-01 02:22:13,730 - root - INFO - Performing Transform 2...
+2022-06-01 02:22:13,782 - root - INFO - Performing Transform 3...
+2022-06-01 02:22:13,788 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:22:14,109 - root - INFO - Running First Query...
+2022-06-01 02:22:14,110 - root - INFO - Query:
+
+	company,
+	application_status,
+	(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float AS DECIMAL(10, 1))) * 100 + "%" as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 02:24:02,222 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:24:02,295 - root - INFO - Extracting Raw Data...
+2022-06-01 02:24:02,296 - root - INFO - scanning input directory...
+2022-06-01 02:24:02,730 - root - INFO - Performing Transform 1...
+2022-06-01 02:24:02,739 - root - INFO - Performing Transform 2...
+2022-06-01 02:24:02,789 - root - INFO - Performing Transform 3...
+2022-06-01 02:24:02,790 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:24:03,070 - root - INFO - Running First Query...
+2022-06-01 02:24:03,071 - root - INFO - Query:
+
+	company,
+	application_status,
+	CAST(ROUND(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100 AS DECIMAL(10, 1)) + "%" as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 02:24:03,078 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    0.0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    0.0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    0.0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    0.0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    0.0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    0.0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    0.0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    0.0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    0.0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    0.0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    0.0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    0.0
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    0.0
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    0.0
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    0.0
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    0.0
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    0.0
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    0.0
+  ]
+]
+2022-06-01 02:24:03,079 - root - INFO - Running First Query...
+2022-06-01 02:24:03,080 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 02:24:03,083 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 02:26:33,302 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:26:33,380 - root - INFO - Extracting Raw Data...
+2022-06-01 02:26:33,380 - root - INFO - scanning input directory...
+2022-06-01 02:26:33,819 - root - INFO - Performing Transform 1...
+2022-06-01 02:26:33,830 - root - INFO - Performing Transform 2...
+2022-06-01 02:26:33,885 - root - INFO - Performing Transform 3...
+2022-06-01 02:26:33,886 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:26:34,165 - root - INFO - Running First Query...
+2022-06-01 02:26:34,166 - root - INFO - Query:
+
+	company,
+	application_status,
+	(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS DECIMAL(10, 3) )) * 100  + "%" as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 02:26:34,172 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    0
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    0
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    0
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    0
+  ]
+]
+2022-06-01 02:26:34,173 - root - INFO - Running First Query...
+2022-06-01 02:26:34,174 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 02:26:34,177 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 02:27:17,519 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:27:17,586 - root - INFO - Extracting Raw Data...
+2022-06-01 02:27:17,588 - root - INFO - scanning input directory...
+2022-06-01 02:27:18,019 - root - INFO - Performing Transform 1...
+2022-06-01 02:27:18,028 - root - INFO - Performing Transform 2...
+2022-06-01 02:27:18,082 - root - INFO - Performing Transform 3...
+2022-06-01 02:27:18,085 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:27:18,373 - root - INFO - Running First Query...
+2022-06-01 02:27:18,374 - root - INFO - Query:
+
+	company,
+	application_status,
+	(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100  + "%" as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 02:27:18,381 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    36.13138686131387
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    6.81265206812652
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    7.907542579075426
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    4.37956204379562
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    18.004866180048662
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    26.763990267639905
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    35.84905660377358
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    4.559748427672956
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    6.446540880503145
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    6.289308176100629
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    18.867924528301888
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    27.9874213836478
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    36.21700879765396
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    6.451612903225806
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    6.598240469208211
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    5.425219941348973
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    18.181818181818183
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    27.126099706744867
+  ]
+]
+2022-06-01 02:27:18,382 - root - INFO - Running First Query...
+2022-06-01 02:27:18,383 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 02:27:18,386 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 02:29:27,343 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:29:27,409 - root - INFO - Extracting Raw Data...
+2022-06-01 02:29:27,409 - root - INFO - scanning input directory...
+2022-06-01 02:29:27,848 - root - INFO - Performing Transform 1...
+2022-06-01 02:29:27,857 - root - INFO - Performing Transform 2...
+2022-06-01 02:29:27,904 - root - INFO - Performing Transform 3...
+2022-06-01 02:29:27,905 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:29:28,178 - root - INFO - Running First Query...
+2022-06-01 02:29:28,179 - root - INFO - Query:
+
+	company,
+	application_status,
+	((COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100  + "%") as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 02:29:28,184 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    36.13138686131387
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    6.81265206812652
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    7.907542579075426
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    4.37956204379562
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    18.004866180048662
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    26.763990267639905
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    35.84905660377358
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    4.559748427672956
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    6.446540880503145
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    6.289308176100629
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    18.867924528301888
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    27.9874213836478
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    36.21700879765396
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    6.451612903225806
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    6.598240469208211
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    5.425219941348973
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    18.181818181818183
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    27.126099706744867
+  ]
+]
+2022-06-01 02:29:28,185 - root - INFO - Running First Query...
+2022-06-01 02:29:28,186 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 02:29:28,189 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 02:30:05,791 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 02:30:05,863 - root - INFO - Extracting Raw Data...
+2022-06-01 02:30:05,864 - root - INFO - scanning input directory...
+2022-06-01 02:30:06,310 - root - INFO - Performing Transform 1...
+2022-06-01 02:30:06,318 - root - INFO - Performing Transform 2...
+2022-06-01 02:30:06,368 - root - INFO - Performing Transform 3...
+2022-06-01 02:30:06,369 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 02:30:06,666 - root - INFO - Running First Query...
+2022-06-01 02:30:06,667 - root - INFO - Query:
+
+	company,
+	application_status,
+	(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 02:30:06,673 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    36.13138686131387
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    6.81265206812652
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    7.907542579075426
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    4.37956204379562
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    18.004866180048662
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    26.763990267639905
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    35.84905660377358
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    4.559748427672956
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    6.446540880503145
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    6.289308176100629
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    18.867924528301888
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    27.9874213836478
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    36.21700879765396
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    6.451612903225806
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    6.598240469208211
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    5.425219941348973
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    18.181818181818183
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    27.126099706744867
+  ]
+]
+2022-06-01 02:30:06,675 - root - INFO - Running First Query...
+2022-06-01 02:30:06,676 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 02:30:06,679 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 03:34:36,626 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 03:34:36,704 - root - INFO - Extracting Raw Data...
+2022-06-01 03:34:36,705 - root - INFO - scanning input directory...
+2022-06-01 03:34:37,278 - root - INFO - Performing Transform 1...
+2022-06-01 03:34:37,287 - root - INFO - Performing Transform 2...
+2022-06-01 03:34:37,344 - root - INFO - Performing Transform 3...
+2022-06-01 03:34:37,347 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 03:34:37,699 - root - INFO - Running First Query...
+2022-06-01 03:34:37,701 - root - INFO - Query:
+
+	company,
+	application_status,
+	CAST((COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) AS Decimal(10,2)) * 100  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 03:34:37,711 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    36.13138686131387
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    6.81265206812652
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    7.907542579075426
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    4.37956204379562
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    18.004866180048662
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    26.763990267639905
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    35.84905660377358
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    4.559748427672956
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    6.446540880503145
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    6.289308176100629
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    18.867924528301888
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    27.9874213836478
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    36.21700879765396
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    6.451612903225806
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    6.598240469208211
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    5.425219941348973
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    18.181818181818183
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    27.126099706744867
+  ]
+]
+2022-06-01 03:34:37,713 - root - INFO - Running First Query...
+2022-06-01 03:34:37,714 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 03:34:37,717 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 03:40:33,933 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 03:40:34,014 - root - INFO - Extracting Raw Data...
+2022-06-01 03:40:34,015 - root - INFO - scanning input directory...
+2022-06-01 03:40:34,497 - root - INFO - Performing Transform 1...
+2022-06-01 03:40:34,506 - root - INFO - Performing Transform 2...
+2022-06-01 03:40:34,559 - root - INFO - Performing Transform 3...
+2022-06-01 03:40:34,560 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 03:40:34,888 - root - INFO - Running First Query...
+2022-06-01 03:40:34,888 - root - INFO - Query:
+
+	company,
+	application_status,
+	CAST((COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) AS Decimal(10,2)) * 100  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 03:40:34,896 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    36.13138686131387
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    6.81265206812652
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    7.907542579075426
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    4.37956204379562
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    18.004866180048662
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    26.763990267639905
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    35.84905660377358
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    4.559748427672956
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    6.446540880503145
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    6.289308176100629
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    18.867924528301888
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    27.9874213836478
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    36.21700879765396
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    6.451612903225806
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    6.598240469208211
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    5.425219941348973
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    18.181818181818183
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    27.126099706744867
+  ]
+]
+2022-06-01 03:40:34,897 - root - INFO - Running First Query...
+2022-06-01 03:40:34,898 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 03:40:34,904 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 03:40:42,868 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 03:40:42,949 - root - INFO - Extracting Raw Data...
+2022-06-01 03:40:42,950 - root - INFO - scanning input directory...
+2022-06-01 03:40:43,437 - root - INFO - Performing Transform 1...
+2022-06-01 03:40:43,450 - root - INFO - Performing Transform 2...
+2022-06-01 03:40:43,501 - root - INFO - Performing Transform 3...
+2022-06-01 03:40:43,502 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 03:40:43,834 - root - INFO - Running First Query...
+2022-06-01 03:40:43,835 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || " " || "%"  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 03:40:43,843 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    "36.13 %"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    "6.81 %"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    "7.91 %"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    "4.38 %"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    "18.00 %"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    "26.76 %"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    "35.85 %"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    "4.56 %"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    "6.45 %"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    "6.29 %"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    "18.87 %"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    "27.99 %"
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    "36.22 %"
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    "6.45 %"
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    "6.60 %"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    "5.43 %"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    "18.18 %"
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    "27.13 %"
+  ]
+]
+2022-06-01 03:40:43,844 - root - INFO - Running First Query...
+2022-06-01 03:40:43,846 - root - INFO - Query:
+
+    *
+    FROM ats
+    LIMIT 10
+    
+2022-06-01 03:40:43,851 - root - INFO - Results:
+[
+  [
+    1,
+    "2022-05-01 11:06:17.146171",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    2,
+    "2022-05-21 13:47:02.146122",
+    "Gretchen Dede",
+    "1157746100",
+    "Gretchen.Dede@protonmail.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    3,
+    "2022-05-08 10:58:37.147304",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    4,
+    "2022-05-26 13:27:35.147315",
+    "Tasha Odele",
+    "1784676846",
+    "Tasha.Odele@protonmail.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ],
+  [
+    5,
+    "2022-04-28 08:27:59.149844",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    6,
+    "2022-05-02 08:27:25.149853",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Waiting For Interview"
+  ],
+  [
+    7,
+    "2022-05-24 09:18:59.149834",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Sent"
+  ],
+  [
+    8,
+    "2022-05-24 09:56:09.149823",
+    "Dottie Karen",
+    "9364709862",
+    "Dottie.Karen@sbcglobal.cc",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Offer Rejected"
+  ],
+  [
+    9,
+    "2022-05-06 12:02:33.150500",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Applied"
+  ],
+  [
+    10,
+    "2022-05-16 14:45:25.150511",
+    "Alison Virginia",
+    "6021230615",
+    "Alison.Virginia@att.io",
+    "Cone Printer Corporation",
+    "International Implementation Producer",
+    "Disqualified"
+  ]
+]
+2022-06-01 03:59:44,062 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 03:59:44,134 - root - INFO - Extracting Raw Data...
+2022-06-01 03:59:44,135 - root - INFO - scanning input directory...
+2022-06-01 03:59:44,626 - root - INFO - Performing Transform 1...
+2022-06-01 03:59:44,636 - root - INFO - Performing Transform 2...
+2022-06-01 03:59:44,688 - root - INFO - Performing Transform 3...
+2022-06-01 03:59:44,689 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 03:59:45,006 - root - INFO - Running First Query...
+2022-06-01 03:59:45,007 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 03:59:45,012 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    "27.13%"
+  ]
+]
+2022-06-01 03:59:45,013 - root - INFO - Running First Query...
+2022-06-01 03:59:45,015 - root - INFO - Query:
+
+    Create TEMP table abc as 
+select distinct company, email from ats
+where application_status = 'Disqualified';
+Select a.company,
+	a.application_status,
+	printf("%.2f",(COUNT(a.*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float )) * 100)  || " " || "%"  as "Percentage"
+FROM
+	ats a 
+	join abc b on a.company = b.company and a.email = b.email
+	where a.application_status != 'Disqualified'
+GROUP BY
+	a.company,
+	a.application_status
+    
+2022-06-01 04:00:24,208 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 04:00:24,286 - root - INFO - Extracting Raw Data...
+2022-06-01 04:00:24,287 - root - INFO - scanning input directory...
+2022-06-01 04:00:24,788 - root - INFO - Performing Transform 1...
+2022-06-01 04:00:24,798 - root - INFO - Performing Transform 2...
+2022-06-01 04:00:24,862 - root - INFO - Performing Transform 3...
+2022-06-01 04:00:24,863 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 04:00:25,225 - root - INFO - Running First Query...
+2022-06-01 04:00:25,226 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 04:00:25,234 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    "27.13%"
+  ]
+]
+2022-06-01 04:00:25,236 - root - INFO - Running First Query...
+2022-06-01 04:00:25,237 - root - INFO - Query:
+
+    Create TEMPORARY table abc as 
+select distinct company, email from ats
+where application_status = 'Disqualified';
+Select a.company,
+	a.application_status,
+	printf("%.2f",(COUNT(a.*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float )) * 100)  || " " || "%"  as "Percentage"
+FROM
+	ats a 
+	join abc b on a.company = b.company and a.email = b.email
+	where a.application_status != 'Disqualified'
+GROUP BY
+	a.company,
+	a.application_status
+    
+2022-06-01 04:13:17,862 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 04:13:17,937 - root - INFO - Extracting Raw Data...
+2022-06-01 04:13:17,937 - root - INFO - scanning input directory...
+2022-06-01 04:13:18,423 - root - INFO - Performing Transform 1...
+2022-06-01 04:13:18,431 - root - INFO - Performing Transform 2...
+2022-06-01 04:13:18,489 - root - INFO - Performing Transform 3...
+2022-06-01 04:13:18,490 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 04:13:18,810 - root - INFO - Running First Query...
+2022-06-01 04:13:18,812 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 04:13:18,820 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    "27.13%"
+  ]
+]
+2022-06-01 04:13:18,820 - root - INFO - Running First Query...
+2022-06-01 04:13:18,822 - root - INFO - Query:
+
+	a.company,
+	a.application_status,
+	printf ("%.2f",
+		(COUNT(a.*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || " " || "%" AS "Percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'Disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'Disqualified'
+GROUP BY
+	a.company, a.application_status
+    
+2022-06-01 04:14:25,348 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 04:14:25,436 - root - INFO - Extracting Raw Data...
+2022-06-01 04:14:25,437 - root - INFO - scanning input directory...
+2022-06-01 04:14:25,911 - root - INFO - Performing Transform 1...
+2022-06-01 04:14:25,920 - root - INFO - Performing Transform 2...
+2022-06-01 04:14:25,972 - root - INFO - Performing Transform 3...
+2022-06-01 04:14:25,973 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 04:14:26,303 - root - INFO - Running First Query...
+2022-06-01 04:14:26,304 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 04:14:26,313 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Offer Sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Offer Sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "Disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "Hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "Offer Sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    "27.13%"
+  ]
+]
+2022-06-01 04:14:26,314 - root - INFO - Running First Query...
+2022-06-01 04:14:26,316 - root - INFO - Query:
+
+	a.company,
+	a.application_status,
+	printf ("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || " " || "%" AS "Percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'Disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'Disqualified'
+GROUP BY
+	a.company, a.application_status
+	
+
+    
+2022-06-01 04:14:26,326 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "Applied",
+    "68.29 %"
+  ],
+  [
+    "Cone Printer Corporation",
+    "Waiting For Interview",
+    "31.71 %"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Applied",
+    "72.50 %"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "Waiting For Interview",
+    "27.50 %"
+  ],
+  [
+    "Post office System Corporation",
+    "Applied",
+    "64.71 %"
+  ],
+  [
+    "Post office System Corporation",
+    "Waiting For Interview",
+    "35.29 %"
+  ]
+]
+2022-06-01 04:20:47,996 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 04:20:48,079 - root - INFO - Extracting Raw Data...
+2022-06-01 04:20:48,079 - root - INFO - scanning input directory...
+2022-06-01 04:20:48,556 - root - INFO - Performing Transform 1...
+2022-06-01 04:20:48,565 - root - INFO - Performing Transform 2...
+2022-06-01 04:20:48,611 - root - INFO - Performing Transform 3...
+2022-06-01 04:20:48,613 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 04:20:48,899 - root - INFO - Running First Query...
+2022-06-01 04:20:48,900 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 04:20:48,906 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "27.13%"
+  ]
+]
+2022-06-01 04:20:48,906 - root - INFO - Running First Query...
+2022-06-01 04:20:48,907 - root - INFO - Query:
+
+	a.company,
+	a.application_status,
+	printf ("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || "%" AS "Percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'disqualified'
+GROUP BY
+	a.company, a.application_status
+    
+2022-06-01 04:20:48,912 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "68.29%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "31.71%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "72.50%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.50%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "64.71%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "35.29%"
+  ]
+]
+2022-06-01 04:30:08,325 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 04:31:05,946 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 04:31:06,020 - root - INFO - Extracting Raw Data...
+2022-06-01 04:31:06,021 - root - INFO - scanning input directory...
+2022-06-01 04:31:06,463 - root - INFO - Performing Transform 1...
+2022-06-01 04:31:06,472 - root - INFO - Performing Transform 2...
+2022-06-01 04:31:06,521 - root - INFO - Performing Transform 3...
+2022-06-01 04:31:06,522 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 04:31:06,808 - root - INFO - Running First Query...
+2022-06-01 04:31:06,809 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "Percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 04:31:06,815 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "27.13%"
+  ]
+]
+2022-06-01 04:31:06,816 - root - INFO - Running First Query...
+2022-06-01 04:31:06,818 - root - INFO - Query:
+
+	a.company,
+	a.application_status,
+	printf ("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || "%" AS "Percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'disqualified'
+GROUP BY
+	a.company, a.application_status
+    
+2022-06-01 04:31:06,824 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "68.29%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "31.71%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "72.50%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.50%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "64.71%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "35.29%"
+  ]
+]
+2022-06-01 17:50:40,458 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 17:50:40,550 - root - INFO - Extracting Raw Data...
+2022-06-01 17:50:40,551 - root - INFO - scanning input directory...
+2022-06-01 17:50:41,154 - root - INFO - Performing Transform 1...
+2022-06-01 17:50:41,164 - root - INFO - Performing Transform 2...
+2022-06-01 17:50:41,191 - root - INFO - Performing Transform 3...
+2022-06-01 17:50:41,218 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 17:50:41,525 - root - INFO - Running First Query...
+2022-06-01 17:50:41,526 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 17:50:41,534 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "27.13%"
+  ]
+]
+2022-06-01 17:50:41,535 - root - INFO - Running First Query...
+2022-06-01 17:50:41,537 - root - INFO - Query:
+
+	a.company,
+	a.application_status as "application_status(prior to DQ)",
+	printf ("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || "%" AS "percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'disqualified'
+GROUP BY
+	a.company, a.application_status
+    
+2022-06-01 17:50:41,544 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "68.29%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "31.71%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "72.50%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.50%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "64.71%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "35.29%"
+  ]
+]
+2022-06-01 19:10:45,890 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 19:10:45,975 - root - INFO - Extracting Raw Data...
+2022-06-01 19:10:45,976 - root - INFO - scanning input directory...
+2022-06-01 19:10:46,430 - root - INFO - Performing Transform 1: Common Status Mapping...
+2022-06-01 19:10:46,438 - root - INFO - Performing Transform 2: Quarantine...
+2022-06-01 19:10:46,463 - root - INFO - Performing Transform 3: Normalization...
+2022-06-01 19:10:46,498 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 19:10:46,819 - root - INFO - Running First Query...
+2022-06-01 19:10:46,820 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 19:10:46,829 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "27.13%"
+  ]
+]
+2022-06-01 19:10:46,834 - root - INFO - Running Second Query...
+2022-06-01 19:10:46,835 - root - INFO - Query:
+
+	a.company,
+	a.application_status as "application_status(prior to DQ)",
+	printf ("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || "%" AS "percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'disqualified'
+GROUP BY
+	a.company, a.application_status
+    
+2022-06-01 19:10:46,847 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "68.29%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "31.71%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "72.50%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.50%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "64.71%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "35.29%"
+  ]
+]
+2022-06-01 19:18:09,484 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 19:18:09,561 - root - INFO - Extracting Raw Data...
+2022-06-01 19:18:09,562 - root - INFO - scanning input directory...
+2022-06-01 19:18:09,961 - root - INFO - Performing Transform 1: Common Status Mapping...
+2022-06-01 19:18:09,969 - root - INFO - Performing Transform 2: Quarantine...
+2022-06-01 19:18:10,051 - root - INFO - Performing Transform 3: Normalization...
+2022-06-01 19:18:10,080 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 19:18:10,405 - root - INFO - Running First Query...
+2022-06-01 19:18:10,406 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 19:18:10,413 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "27.13%"
+  ]
+]
+2022-06-01 19:18:10,414 - root - INFO - Running Second Query...
+2022-06-01 19:18:10,415 - root - INFO - Query:
+
+	a.company,
+	a.application_status as "application_status(prior to DQ)",
+	printf ("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || "%" AS "percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'disqualified'
+GROUP BY
+	a.company, a.application_status
+    
+2022-06-01 19:18:10,421 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "68.29%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "31.71%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "72.50%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.50%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "64.71%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "35.29%"
+  ]
+]
+2022-06-01 19:20:29,598 - root - INFO - Generating Sqlite Database Schema
+2022-06-01 19:20:29,669 - root - INFO - Extracting Raw Data...
+2022-06-01 19:20:29,670 - root - INFO - scanning input directory...
+2022-06-01 19:20:30,046 - root - INFO - Performing Transform 1: Common Status Mapping...
+2022-06-01 19:20:30,055 - root - INFO - Performing Transform 2: Quarantine...
+2022-06-01 19:20:30,134 - root - INFO - Performing Transform 3: Normalization...
+2022-06-01 19:20:30,164 - root - INFO - Loading Data in SQLite Database...
+2022-06-01 19:20:30,480 - root - INFO - Running First Query...
+2022-06-01 19:20:30,482 - root - INFO - Query:
+
+	company,
+	application_status,
+	printf("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY company) AS float )) * 100)  || "%"  as "percentage"
+FROM
+	ats
+GROUP BY
+	company,
+	application_status
+    
+2022-06-01 19:20:30,491 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "36.13%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "disqualified",
+    "6.81%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "hired",
+    "7.91%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer rejected",
+    "4.38%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "offer sent",
+    "18.00%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "26.76%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "35.85%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "disqualified",
+    "4.56%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "hired",
+    "6.45%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer rejected",
+    "6.29%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "offer sent",
+    "18.87%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.99%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "36.22%"
+  ],
+  [
+    "Post office System Corporation",
+    "disqualified",
+    "6.45%"
+  ],
+  [
+    "Post office System Corporation",
+    "hired",
+    "6.60%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer rejected",
+    "5.43%"
+  ],
+  [
+    "Post office System Corporation",
+    "offer sent",
+    "18.18%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "27.13%"
+  ]
+]
+2022-06-01 19:20:30,492 - root - INFO - Running Second Query...
+2022-06-01 19:20:30,494 - root - INFO - Query:
+
+	a.company,
+	a.application_status as "application_status(prior to DQ)",
+	printf ("%.2f",(COUNT(*) / CAST(SUM(count(*)) OVER (PARTITION BY a.company) AS float)) * 100) || "%" AS "percentage"
+FROM
+	ats a
+	JOIN ( SELECT DISTINCT
+			company,
+			email
+		FROM
+			ats
+		WHERE
+			application_status = 'disqualified') b ON a.company = b.company
+	AND a.email = b.email
+WHERE
+	a.application_status != 'disqualified'
+GROUP BY
+	a.company, a.application_status
+    
+2022-06-01 19:20:30,499 - root - INFO - Results:
+[
+  [
+    "Cone Printer Corporation",
+    "applied",
+    "68.29%"
+  ],
+  [
+    "Cone Printer Corporation",
+    "waiting for interview",
+    "31.71%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "applied",
+    "72.50%"
+  ],
+  [
+    "Ice cream cone Water Corporation",
+    "waiting for interview",
+    "27.50%"
+  ],
+  [
+    "Post office System Corporation",
+    "applied",
+    "64.71%"
+  ],
+  [
+    "Post office System Corporation",
+    "waiting for interview",
+    "35.29%"
+  ]
+]

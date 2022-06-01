@@ -1,0 +1,9 @@
+tables:
+  ats:
+    time: datetime
+    person_name: str
+    phone: str
+    email: str
+    company: str
+    role: str
+    application_status: str

@@ -1,0 +1,33 @@
+from datetime import datetime
+from pony.orm import Database, Required, Set, Optional, PrimaryKey
+from pony.orm import db_session
+import os
+
+# Clears the existing database
+if os.path.exists('/code/data/gen/database.sqlite'):
+    os.remove('/code/data/gen/database.sqlite')
+
+# Init
+db = Database()
+{% for table, fields in tables.items() %}
+class Table_{{ table }}(db.Entity):
+    _table_ = '{{ table }}' {% for field, type in fields.items() %}
+    {{ field }} = Required({{ type }}) {% endfor %}
+{% endfor %}
+# Establish DB connection
+db.bind(provider="sqlite", filename="database.sqlite", create_db=True)
+db.generate_mapping(create_tables=True)
+
+# db insert
+@db_session {% for table, fields in tables.items() %}
+def insert_Table_{{ table }}(list_of_dicts: []):
+   for idx in range(len(list_of_dicts)):
+        Table_{{ table }}(
+            {% for field, type in fields.items() %} {{ field }}=list_of_dicts[idx].get('{{ field }}'),
+            {% endfor %}
+        )
+{% endfor %}
+
+@db_session
+def select_statement(statement):
+    return db.select(statement)
